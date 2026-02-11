@@ -1,0 +1,16 @@
+posts: list[dict] = [
+    {
+        "id": 1,
+        "author": "Denzel Anoliefo",
+        "title": "The Student",
+        "content": "He is a 3rd year Western University Computer Science Student Aiming for a FAANG SWE internship",
+        'date_posted': "Feb 10, 2026",
+    },
+    {
+        "id": 2,
+        "author": "JK Rowling",
+        "title": "Harry Potter",
+        "content": "And he swung his wand and said accra cadabra and slayed the dragon to rest in gryphindor",
+        'date_posted': "Mar 12, 2002",
+    },
+]
