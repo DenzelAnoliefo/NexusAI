@@ -1,3 +1,3 @@
-NexusAI
+# NexusAI
 
-# ** Coming Soon! **
+## ** Coming Soon! **
