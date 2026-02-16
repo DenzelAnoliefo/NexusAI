@@ -14,3 +14,17 @@ posts: list[dict] = [
         'date_posted': "Mar 12, 2002",
     },
 ]
+
+
+these are some best practices for web hooks that I think I should account for. What do you think? 
+
+idempotency
+backup polling mechanism 
+secure with auth tokens to help prevent fuze
+use queues for when its high traffic
+
+
+when the slack message is sent over. Whats the goal with how we want it to be presented. 
+should be presented as a bot message and have some sort of tag so you can people on the team can distinguish real messages from bot reminders and updates and stuff. 
+Or should I appear as a real message as if that person typed it himself. 
+
